@@ -40,7 +40,7 @@ func main() {
         return
     }
 	
-	fmt.Printf("RNS Address %s resolve to name: %s\n", "0xa09a9b6f90ab23fcdcd6c3d087c1dfb65dddfb05", name)
+	fmt.Printf("Address %s resolve to name: %s\n", "0xa09a9b6f90ab23fcdcd6c3d087c1dfb65dddfb05", name)
 	
 	// Batch resolve names to addressess
 	getAddressBatchInput := []rnsgo.Name{"jihoz.ron", "dwi.ron", "wehmoen.ron"}
