@@ -8,8 +8,8 @@ import (
 
 const (
 	TestRNSName      Name    = "jihoz.ron"
-	TestRoninAddress Address = "ronin:a09a9b6f90ab23fcdcd6c3d087c1dfb65dddfb05"
-	TestEthAddress   Address = "0xa09a9b6f90ab23fcdcd6c3d087c1dfb65dddfb05"
+	TestRoninAddress Address = "ronin:2d62c27ce2e9e66bb8a667ce1b60f7cb02fa9810"
+	TestEthAddress   Address = "0x2d62c27ce2e9e66bb8a667ce1b60f7cb02fa9810"
 )
 
 // TestNewClient function tests the NewClient function with a real API call
