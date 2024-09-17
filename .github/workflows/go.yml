@@ -5,7 +5,8 @@ on: [push, pull_request]
 jobs:
   test:
     name: Test Library
-    runs-on: self-hosted
+    runs-on:
+      group: "enterprise/Default"
     steps:
       - name: Set up Go
         uses: actions/setup-go@v3
