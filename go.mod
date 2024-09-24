@@ -3,7 +3,7 @@ module github.com/wehmoen/rnsgo
 go 1.21
 
 require (
-	github.com/go-resty/resty/v2 v2.15.0
+	github.com/go-resty/resty/v2 v2.15.2
 	github.com/stretchr/testify v1.9.0
 )
 
